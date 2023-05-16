@@ -1,0 +1,12 @@
+{
+	"development": {
+        "config_id": "development",
+		"database": "mongodb://admin:password987654321@sandbox-bp-database-nlb-26b4ccc87a7d4c2b.elb.eu-west-1.amazonaws.com:80/mydb?authSource=admin",
+		"database_name": "mydb",
+		"database_collection": "customers",
+		"webservice": "http://10.8.2.33:8080/BPRestWS-1.0-SNAPSHOT/retrieve/bp/getJson/", 
+		"exposedPort": "22137",
+		"app_name": "BloodPressure",
+		"version": "local"
+	}
+}
